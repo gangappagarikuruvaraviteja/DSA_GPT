@@ -1,0 +1,99 @@
+.sidebar {
+  width: 260px;
+  min-width: 260px;
+  height: 100vh;
+  background: #171717;
+  border-right: 1px solid #2a2a2a;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+/* ----------- TOP SECTION ----------- */
+.sidebar-top {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* ----------- BOTTOM SECTION ----------- */
+.sidebar-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* ----------- New Chat Button ----------- */
+.new-chat-btn {
+  padding: 12px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #6d28d9, #9333ea);
+  color: white;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+.new-chat-btn:hover {
+  opacity: 0.9;
+}
+
+/* ----------- DSA Section ----------- */
+.dsa-section h4 {
+  font-size: 0.85rem;
+  margin-bottom: 10px;
+  color: #aaa;
+}
+
+.dsa-item {
+  padding: 8px 10px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.dsa-item:hover {
+  background: #242424;
+}
+
+/* ----------- Auth Section ----------- */
+.auth-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.user-email {
+  font-size: 12px;
+  color: #888;
+  word-break: break-word;
+}
+
+.login-btn,
+.logout-btn {
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.login-btn {
+  background: #2563eb;
+  color: white;
+}
+
+.logout-btn {
+  background: #dc2626;
+  color: white;
+}
+
+/* ----------- Footer ----------- */
+.sidebar-footer {
+  font-size: 11px;
+  color: #666;
+  text-align: center;
+}
+.sidebar {
+  overflow-y: auto;
+}
